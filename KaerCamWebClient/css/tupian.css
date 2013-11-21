@@ -1,0 +1,515 @@
+.pannel{height:125px;background:url(../img/camera/bg-pannel.png) repeat-x;width:100%; position:relative;border-top:1px solid #aaa;}
+.iconLay{display:block;float:left;border:1px solid #9c9d9d;margin-left:-1px;}
+.ptext{float:left;margin-right:8px;line-height:22px;}
+
+.pControl1{width:125px; height:125px;background:url(../img/camera/tupian.gif) no-repeat 0 0;position:absolute;
+top:0px; left:0px;}
+.pControl1 a{position:absolute; display:block;height:40px;width:40px;}
+.pControl1 a span{display:block;}
+#linkDir02{top:13px; left:43px;}
+#linkDir04{top:43px; left:13px;}
+#linkDir05{top:43px; left:43px;}
+#linkDir06{top:43px; left:83px;}
+#linkDir08{top:83px; left:43px;}
+
+.pControl2{width:300px;position:absolute; top:36px; left:130px;}
+.pControl2-g1{position:absolute; top:0px; left:0px;}
+.pControl2-g2{position:absolute; top:40px; left:0px;}
+.pControl2-g3{position:absolute; top:40px; left:120px;}
+.pControl2-g4{position:absolute; top:0px; left:0px;}
+.pControl2-g4 .iconLay{margin-top:4px;}
+
+.pControl3{width:280px;position:absolute; top:36px; left:370px;}
+.pControl3-g1{position:absolute; top:0px; left:10px;}
+.pControl3-g2{position:absolute; top:0px; left:130px;}
+.pControl3-g3{position:absolute; top:40px; left:10px;}
+.pControl3-g4{position:absolute; top:40px; left:130px;}
+
+
+.direction_02
+{
+    background:url(../img/camera/tupian.gif) -130px 0px no-repeat;
+    width:40px;
+    height:30px;
+}
+.direction_04
+{
+    background:url(../img/camera/tupian.gif) -170px 0px no-repeat;
+    width:30px;
+    height:40px;
+}
+.direction_05
+{
+    background:url(../img/camera/tupian.gif) -170px -80px no-repeat;
+    width:40px;
+    height:40px;
+}
+.direction_06
+{
+    background:url(../img/camera/tupian.gif) -170px -40px no-repeat;
+    width:30px;
+    height:40px;
+}
+.direction_08
+{
+    background:url(../img/camera/tupian.gif) -130px -60px no-repeat;
+    width:40px;
+    height:30px;
+}
+.direction_on_02
+{
+    background:url(../img/camera/tupian.gif) -130px -30px no-repeat;
+    width:40px;
+    height:30px;
+}
+.direction_on_04
+{
+    background:url(../img/camera/tupian.gif) -200px 0px no-repeat;
+    width:30px;
+    height:40px;
+}
+.direction_on_06
+{
+    background:url(../img/camera/tupian.gif) -200px -40px no-repeat;
+    width:30px;
+    height:40px;
+}
+.direction_on_08
+{
+    background:url(../img/camera/tupian.gif) -130px -90px no-repeat;
+    width:40px;
+    height:30px;
+}
+.direction_on_05
+{
+    background:url(../img/camera/tupian.gif) -170px -120px no-repeat;
+    width:40px;
+    height:40px;
+}
+.icon_forcus
+{
+    background:url(../img/camera/tupian.gif) 0px -130px no-repeat;
+    width:23px;
+    height:22px;
+    display:block
+}
+.icon_reduce
+{
+    background:url(../img/camera/tupian.gif) -96px -130px no-repeat;
+    width:23px;
+    height:22px;
+    display:block
+}
+.icon_add
+{
+    background:url(../img/camera/tupian.gif) -72px -130px no-repeat;
+    width:23px;
+    height:22px;
+    display:block
+}
+.pControl2 a:hover .icon_reduce{
+	background:url(../img/camera/tupian.gif) -96px -152px no-repeat;
+}
+.pControl2 a:hover .icon_add{
+	background:url(../img/camera/tupian.gif) -72px -152px no-repeat;
+}
+.icon_quan
+{
+    background:url(../img/camera/tupian.gif) -48px -130px no-repeat;
+    width:23px;
+    height:22px;
+    display:block
+}
+.icon_zoom{
+	background:url(../img/camera/tupian.gif) -24px -130px no-repeat;
+    width:23px;
+    height:22px;
+    display:block
+}
+.gicon_zoom{
+	background:url(../img/camera/tupian.gif) -24px -130px no-repeat;
+    width:23px;
+    height:22px;
+    filter:gray;
+    display:block
+}
+.btn_small_on
+{
+    background:url(../img/camera/tupian.gif) 0px -218px no-repeat;
+    width:14px;
+    height:14px;
+    display:block
+}
+a.btn_small_on:hover{
+	background:url(../img/camera/tupian.gif) -14px -218px no-repeat;
+}
+.btn_large_on
+{
+    background:url(../img/camera/tupian.gif) -28px -218px no-repeat;
+    width:14px;
+    height:14px;
+    display:block
+}
+.gbtn_large_on
+{
+    background:url(../img/camera/tupian.gif) -28px 218px no-repeat;
+    width:14px;
+    height:14px;
+    filter:gray;
+    display:block
+}
+a.btn_large_on:hover{
+	background:url(../img/camera/tupian.gif) -42px -218px no-repeat;
+}
+.step_status_none
+{
+    background:url(../img/camera/tupian.gif) 0px -259px no-repeat;
+    width:95px;
+    height:14px;
+    display:block
+}
+.step_status_1
+{
+    background:url(../img/camera/tupian.gif) 0px -315px no-repeat;
+    width:95px;
+    height:14px;
+    display:block
+}
+.step_status_2
+{
+    background:url(../img/camera/tupian.gif) 0px -273px no-repeat;
+    width:95px;
+    height:14px;
+    display:block
+}
+.step_status_3
+{
+    background:url(../img/camera/tupian.gif) 0px -287px no-repeat;
+    width:95px;
+    height:14px;
+    display:block
+}
+.step_status_4
+{
+    background:url(../img/camera/tupian.gif) 0px -301px no-repeat;
+    width:95px;
+    height:14px;
+    display:block
+}
+.step_status_5
+{
+    background:url(../img/camera/tupian.gif) 0px -245px no-repeat;
+    width:95px;
+    height:14px;
+    display:block
+}
+.gstep_status_none
+{
+    background:url(../img/camera/tupian.gif) 0px -259px no-repeat;
+    width:95px;
+    height:14px;
+    display:block
+}
+.gstep_status_1
+{
+    background:url(../img/camera/tupian.gif) 0px -315px no-repeat;
+    width:95px;
+    height:14px;
+    filter:gray;
+    display:block
+}
+.gstep_status_2
+{
+    background:url(../img/camera/tupian.gif) 0px -273px no-repeat;
+    width:95px;
+    height:14px;
+    display:block
+}
+.gstep_status_3
+{
+    background:url(../img/camera/tupian.gif) 0px -287px no-repeat;
+    width:95px;
+    height:14px;
+    display:block
+}
+.gstep_status_4
+{
+    background:url(../img/camera/tupian.gif) 0px -301px no-repeat;
+    width:95px;
+    height:14px;
+    display:block
+}
+.gstep_status_5
+{
+    background:url(../img/camera/tupian.gif) 0px -245px no-repeat;
+    width:95px;
+    height:14px;
+    display:block
+}
+.board_open
+{
+    background:url(../img/camera/tupian.gif) 0px -174px no-repeat;
+    width:26px;
+    height:22px;
+    display:block
+}
+#linkboardo:hover .board_open{
+	background:url(../img/camera/tupian.gif) 0px -196px no-repeat;
+}
+.board_close
+{
+    background:url(../img/camera/tupian.gif) -27px -174px no-repeat;
+    width:26px;
+    height:22px;
+    display:block
+}
+#linkboardc:hover .board_close{
+	background:url(../img/camera/tupian.gif) -27px -196px no-repeat;
+}
+.tel_open
+{
+    background:url(../img/camera/tupian.gif) -108px -174px no-repeat;
+    width:26px;
+    height:22px;
+    display:block
+}
+#linktelo:hover .tel_open{
+	background:url(../img/camera/tupian.gif) -108px -196px no-repeat;
+}
+.tel_close
+{
+    background:url(../img/camera/tupian.gif) -135px -174px no-repeat;
+    width:26px;
+    height:22px;
+    display:block
+}
+#linktelc:hover .tel_close{
+	background:url(../img/camera/tupian.gif) -135px -196px no-repeat;
+}
+.rec_open
+{
+    background:url(../img/camera/tupian.gif) -54px -174px no-repeat;
+    width:26px;
+    height:22px;
+    display:block
+}
+#linkreco:hover .rec_open{
+	background:url(../img/camera/tupian.gif) -54px -196px no-repeat;
+}
+.rec_close
+{
+    background:url(../img/camera/tupian.gif) -81px -174px no-repeat;
+    width:26px;
+    height:22px;
+    display:block
+}
+#linkrecc:hover .rec_close{
+	background:url(../img/camera/tupian.gif) -81px -196px no-repeat;
+}
+.zp_open
+{
+    background:url(../img/camera/tupian.gif) -162px -174px no-repeat;
+    width:53px;
+    height:22px;
+    display:block
+}
+#linkzpo:hover .zp_open{
+	background:url(../img/camera/tupian.gif) -162px -196px no-repeat;
+}
+
+
+.udirection_on_02
+{
+    background:url(../img/camera/tupian-unable.gif) -130px 0px no-repeat;
+}
+.udirection_on_04
+{
+    background:url(../img/camera/tupian-unable.gif) -170px 0px no-repeat;
+}
+.udirection_on_06
+{
+    background:url(../img/camera/tupian-unable.gif) -170px -40px no-repeat;
+}
+.udirection_on_08
+{
+    background:url(../img/camera/tupian-unable.gif) -130px -60px no-repeat;
+}
+.udirection_on_05
+{
+    background:url(../img/camera/tupian-unable.gif) -170px -80px no-repeat;
+
+}
+.uicon_forcus
+{
+    background:url(../img/camera/tupian-unable.gif) 0px -130px no-repeat;
+    width:23px;
+    height:22px;
+    display:block
+}
+.uicon_reduce
+{
+    background:url(../img/camera/tupian-unable.gif) -96px -130px no-repeat;
+    width:23px;
+    height:22px;
+    display:block
+}
+.uicon_add
+{
+    background:url(../img/camera/tupian-unable.gif) -72px -130px no-repeat;
+    width:23px;
+    height:22px;
+    display:block
+}
+.uicon_quan
+{
+    background:url(../img/camera/tupian-unable.gif) -48px -130px no-repeat;
+    width:23px;
+    height:22px;
+    display:block
+}
+.uicon_zoom{
+	background:url(../img/camera/tupian-unable.gif) -24px -130px no-repeat;
+    width:23px;
+    height:22px;
+    display:block
+}
+.ubtn_small_on
+{
+    background:url(../img/camera/tupian-unable.gif) 0px -218px no-repeat;
+    width:14px;
+    height:14px;
+    display:block
+}
+.ubtn_large_on
+{
+    background:url(../img/camera/tupian-unable.gif) -28px -218px no-repeat;
+    width:14px;
+    height:14px;
+    display:block
+}
+.ustep_status_none
+{
+    background:url(../img/camera/tupian-unable.gif) 0px -259px no-repeat;
+    width:95px;
+    height:14px;
+    display:block
+}
+.ustep_status_1
+{
+    background:url(../img/camera/tupian-unable.gif) -0px -315px no-repeat;
+    width:95px;
+    height:14px;
+    display:block
+}
+.ustep_status_2
+{
+    background:url(../img/camera/tupian-unable.gif) 0px -273px no-repeat;
+    width:95px;
+    height:14px;
+    display:block
+}
+.ustep_status_3
+{
+    background:url(../img/camera/tupian-unable.gif) 0px -287px no-repeat;
+    width:95px;
+    height:14px;
+    display:block
+}
+.ustep_status_4
+{
+    background:url(../img/camera/tupian-unable.gif) 0px -301px no-repeat;
+    width:95px;
+    height:14px;
+    display:block
+}
+.ustep_status_5
+{
+    background:url(../img/camera/tupian-unable.gif) 0px -245px no-repeat;
+    width:95px;
+    height:14px;
+    display:block
+}
+.uboard_open
+{
+    background:url(../img/camera/tupian-unable.gif) 0px -174px no-repeat;
+    width:26px;
+    height:22px;
+    display:block
+}
+.uboard_close
+{
+    background:url(../img/camera/tupian-unable.gif) -27px -174px no-repeat;
+    width:26px;
+    height:22px;
+    display:block
+}
+.utel_open
+{
+    background:url(../img/camera/tupian-unable.gif) -108px -174px no-repeat;
+    width:26px;
+    height:22px;
+    display:block
+}
+.utel_close
+{
+    background:url(../img/camera/tupian-unable.gif) -135px -174px no-repeat;
+    width:26px;
+    height:22px;
+    display:block
+}
+.urec_open
+{
+    background:url(../img/camera/tupian-unable.gif) -54px -174px no-repeat;
+    width:26px;
+    height:22px;
+    display:block
+}
+.urec_close
+{
+    background:url(../img/camera/tupian-unable.gif) -81px -174px no-repeat;
+    width:26px;
+    height:22px;
+    display:block
+}
+.uzp_open
+{
+    background:url(../img/camera/tupian-unable.gif) -162px -174px no-repeat;
+    width:53px;
+    height:22px;
+    display:block
+}
+.udirection_02
+{
+    background:url(../img/camera/tupian-unable.gif) -130px 0px no-repeat;
+    width:40px;
+    height:30px;
+    display:block;
+}
+.udirection_04
+{
+    background:url(../img/camera/tupian-unable.gif) -170px 0px no-repeat;
+    width:30px;
+    height:40px;
+    display:block
+}
+.udirection_05
+{
+    background:url(../img/camera/tupian-unable.gif) -170px -80px no-repeat;
+    width:40px;
+    height:40px;
+    display:block
+}
+.udirection_06
+{
+    background:url(../img/camera/tupian-unable.gif) -170px -40px no-repeat;
+    width:30px;
+    height:40px;
+    display:block
+}
+.udirection_08
+{
+    background:url(../img/camera/tupian-unable.gif) -130px -60px no-repeat;
+    width:40px;
+    height:30px;
+    display:block
+}

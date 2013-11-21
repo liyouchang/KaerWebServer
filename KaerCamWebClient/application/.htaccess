@@ -1,0 +1,6 @@
+Deny from all
+<IfModule mod_rewrite.c>
+	RewriteEngine on   
+	RewriteCond $1 !^(index\.php|css|img|js|plugin)   
+	RewriteRule ^(.*)$ /KaerCamWebClient/index.php/$1 [L]
+</IfModule>
