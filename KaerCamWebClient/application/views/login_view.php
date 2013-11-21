@@ -4,12 +4,6 @@ include('header.php');
 ?>
 
 		<div class="login-box">
-					<div class="plugin-down">
-						<a id="hreDownLoad" href ="<?php echo $pluginFilePath?>"  class="underText">PC插件下载</a>
-						<a id="androidDownLoad" href ="<?php  echo base_url("MobileVideo.apk")?>"  class="underText" >android客户端下载</a>
-                   	 	<a id="signup" href ="<?php  echo base_url("login/register")?>"  class="underText" >用户注册</a>
-                   	 	<a href="<?php echo base_url('login/forget_pwd')?>" id="forgetPwd" class="underText">忘记密码?</a>
-					</div>
 					<?php if($centerSvrType == 1):?>
 					<form class="form-horizontal login-form" id="login-form" action="#" method="post">
 					<?php else:?>
@@ -38,12 +32,14 @@ include('header.php');
 							 	<div class="controls">
 									<input type="submit" class="btn btn-primary btn-login" value="登录"/>
 								</div>
-								 
+								
 							</div> 	
 							<div class = "control-group">
-								
 								<div class="controls">
-									<a href ="<?php echo base_url('plugin/IP2PClientC.ipa')?>">ios客户端下载</a>
+									<a  href ="<?php echo $pluginFilePath?>" >PC插件下载</a>
+								</div>
+								<div class="controls" style="margin-left:280px;">
+								<!-- <a href="<?php echo base_url('login/forget_pwd')?>" >帮助</a> -->
 								</div>
 							</div> 	 
 							
